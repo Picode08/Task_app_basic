@@ -11,9 +11,15 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'
 gem 'jbuilder',     '~> 2.5'
+gem 'rails-i18n'
+gem 'active_decorator'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'rails_autolink'
+gem 'rinku'
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.6'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 

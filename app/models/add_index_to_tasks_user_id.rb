@@ -1,0 +1,2 @@
+class AddIndexToTasksUserId < ApplicationRecord
+end
