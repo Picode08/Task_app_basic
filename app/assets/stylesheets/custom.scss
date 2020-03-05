@@ -83,8 +83,11 @@ p {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #9d9d9d;
+    color: #fff;
     background-color: teal;
+      &:hover {
+    color: #9d9d9d;
+  }
 }
 
 
